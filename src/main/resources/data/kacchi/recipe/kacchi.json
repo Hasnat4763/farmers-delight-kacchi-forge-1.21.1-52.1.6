@@ -4,7 +4,7 @@
   "ingredients": [
     { "item": "farmersdelight:mutton_chops" },
     { "item": "farmersdelight:rice" },
-    { "item": "minecraft:potato" },
+    { "item": "kacchi:chopped_potato" },
     { "item": "farmersdelight:onion" },
     { "item": "farmersdelight:tomato" },
     { "item":  "kacchi:masala" }

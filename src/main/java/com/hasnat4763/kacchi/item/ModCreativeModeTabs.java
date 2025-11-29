@@ -29,6 +29,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CUP.get());
                         output.accept(ModItems.UNCOOKEDCUP.get());
                         output.accept(ModItems.MASALA.get());
+                        output.accept(ModItems.CHOPPED_POTATO.get());
                     }))
                     .build()
     );

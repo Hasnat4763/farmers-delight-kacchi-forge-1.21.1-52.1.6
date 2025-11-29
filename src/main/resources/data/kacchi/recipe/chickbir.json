@@ -3,7 +3,7 @@
   "ingredients": [
     {"item":  "farmersdelight:cooked_chicken_cuts"},
     {"item": "farmersdelight:rice"},
-    {"item": "minecraft:potato"},
+    {"item": "kacchi:chopped_potato"},
     {"item": "farmersdelight:onion"},
     {"item": "farmersdelight:tomato"}
   ],

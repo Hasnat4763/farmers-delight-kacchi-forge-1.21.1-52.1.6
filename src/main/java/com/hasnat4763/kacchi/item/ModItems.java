@@ -28,6 +28,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(16)));
     public static final DeferredItem<Item> CUP = ITEMS.register("cup",
             ()-> new Item(new Item.Properties().stacksTo(16)));
+    public static final DeferredItem<Item> CHOPPED_POTATO = ITEMS.register("chopped_potato",
+            ()-> new Item(new Item.Properties().stacksTo(64)));
 
     public static void register(IEventBus eventbus) {
         LOGGER.info("Registering Items for " + kacchi.MODID);
