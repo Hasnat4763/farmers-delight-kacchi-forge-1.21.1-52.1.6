@@ -6,7 +6,8 @@
     { "item": "farmersdelight:rice" },
     { "item": "minecraft:potato" },
     { "item": "farmersdelight:onion" },
-    { "item": "farmersdelight:tomato" }
+    { "item": "farmersdelight:tomato" },
+    { "item":  "kacchi:masala" }
   ],
   "result": {
     "id": "kacchi:kacchi",

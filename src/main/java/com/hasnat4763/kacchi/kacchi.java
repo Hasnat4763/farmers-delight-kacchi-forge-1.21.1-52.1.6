@@ -1,6 +1,9 @@
 package com.hasnat4763.kacchi;
 
+import com.hasnat4763.kacchi.item.ModCreativeModeTabs;
 import com.hasnat4763.kacchi.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
+import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -30,6 +33,8 @@ public class kacchi {
         modEventBus.addListener(this::commonSetup);
         NeoForge.EVENT_BUS.register(this);
         ModItems.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
+        modEventBus.addListener(this::addCreative);
 
         modContainer.registerConfig(ModConfig.Type.COMMON, SPEC);
     }
@@ -38,6 +43,15 @@ public class kacchi {
         // Some common setup code
         LOGGER.info("HELLO FROM COMMON SETUP");
 
+    }
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        LOGGER.info("Adding items to creative tab");
+        if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(ModItems.KACCHI);
+        }
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.MASALA);
+        }
     }
 
 

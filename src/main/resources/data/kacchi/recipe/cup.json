@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 400,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "kacchi:uncookedcup"
+  },
+  "result": {
+    "id": "kacchi:cup"
+  }
+}
