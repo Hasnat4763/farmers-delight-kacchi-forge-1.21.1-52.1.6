@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "c:foods/cooked_fish"},
+    {"item": "farmersdelight:cooked_rice"}
+  ],
+  "result": {
+    "id": "kacchi:machvaat",
+    "count": 1
+  },
+  "recipe_book_tab": "foods"
+}

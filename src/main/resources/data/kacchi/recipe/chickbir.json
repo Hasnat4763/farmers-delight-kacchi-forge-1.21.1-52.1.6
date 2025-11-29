@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {"item":  "farmersdelight:cooked_chicken_cuts"},
+    {"item": "farmersdelight:rice"},
+    {"item": "minecraft:potato"},
+    {"item": "farmersdelight:onion"},
+    {"item": "farmersdelight:tomato"}
+  ],
+  "result": {
+    "id": "kacchi:chickbir",
+    "count": 1
+  },
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "cookingtime": 600,
+  "experience": 0.5,
+  "recipe_book_tab": "meals"
+}
