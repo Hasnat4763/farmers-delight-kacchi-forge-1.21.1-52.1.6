@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 0.5,
+  "ingredients": [
+    { "item": "farmersdelight:mutton_chops" },
+    { "item": "farmersdelight:rice" },
+    { "item": "minecraft:potato" },
+    { "item": "farmersdelight:onion" },
+    { "item": "farmersdelight:tomato" }
+  ],
+  "result": {
+    "id": "kacchi:kacchi",
+    "count": 1
+  },
+  "recipe_book_tab": "meals",
+  "container": {
+    "id": "minecraft:bowl"
+  }
+}
