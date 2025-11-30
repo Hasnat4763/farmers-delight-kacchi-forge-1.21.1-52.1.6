@@ -40,11 +40,4 @@ public class ModFoods {
             .effect(()-> new MobEffectInstance(MobEffects.CONFUSION, 1000, 1),1f)
             .build();
 
-    public static final FoodProperties CHAI = new FoodProperties.Builder()
-            .nutrition(5)
-            .saturationModifier(0.5f)
-            .effect(()-> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 900, 2),1f)
-            .alwaysEdible()
-            .usingConvertsTo(Items.BUCKET)
-            .build();
 }

@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {"item":  "minecraft:milk_bucket"},
+    {"item": "kacchi:chai_leaves"}
+  ],
+  "result": {
+    "id": "kacchi:chai_bucket",
+    "count": 1
+  },
+  "container": {
+    "id": "minecraft:bucket"
+  },
+  "cookingtime": 600,
+  "experience": 0.5
+}

@@ -32,6 +32,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CHOPPED_POTATO.get());
                         output.accept(ModItems.CHAI_SEEDS.get());
                         output.accept(ModItems.CHAI_LEAVES.get());
+                        output.accept(ModItems.CHAI_BUCKET.get());
                     }))
                     .build()
     );

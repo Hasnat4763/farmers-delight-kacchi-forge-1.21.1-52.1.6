@@ -42,10 +42,15 @@ public class ModItems {
             ()-> new ItemNameBlockItem(ModBlocks.CHAI_CROP.get(), new Item.Properties()));
     public static final DeferredItem<Item> CHAI_LEAVES = ITEMS.register("chai_leaves",
             ()-> new Item(new Item.Properties()));
-    public static final Supplier<Item> CHAI_BUCKET = ITEMS.register("chai_bucket",
-            () -> new EdibleChaiBucket(
+    public static final DeferredItem<Item> CHAI_BUCKET = ITEMS.register("chai_bucket",
+            () -> new BucketItem(
                     ModFluids.SOURCE_CHAI_FLUID.get(),
                     new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)
+            ));
+    public static final Supplier<Item> CHAI_CUP = ITEMS.register("chai_cup",
+            () -> new EdibleChaiBucket(
+                    ModFluids.SOURCE_CHAI_FLUID.get(),
+                    new Item.Properties().craftRemainder(CUP.get()).stacksTo(1)
             ));
 
 
