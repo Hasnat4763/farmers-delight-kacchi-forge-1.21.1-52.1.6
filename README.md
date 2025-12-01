@@ -1,25 +1,14 @@
+![logo](https://github.com/user-attachments/assets/2ebe3237-909e-4321-9ec4-73b3f36cb596)
 
-Installation information
-=======
+# Farmer's Delight: Kacchi
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+This is the updated version of my 1st mod "Farmer's Delight: Kacchi" now made for NeoForge 1.21.1
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+It adds a new fluid called "Chai" and crops and seeds for chai but it is not fully implemented yet I am gonna work on it after my exams
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+# Demo
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+![Youtube]((https://youtu.be/-HE_H9orEn4))
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+
+If you have any issues just email me or make a new issue in this repository.
